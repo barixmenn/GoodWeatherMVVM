@@ -7,15 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6041DDF729361EBA0022A3BC /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041DDF629361EBA0022A3BC /* String.swift */; };
+		6041DDFA29361F2C0022A3BC /* Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041DDF929361F2C0022A3BC /* Contants.swift */; };
+		6041DDFD29361FC90022A3BC /* AddWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041DDFC29361FC90022A3BC /* AddWeatherViewModel.swift */; };
+		6041DDFF293623EF0022A3BC /* WeatherListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041DDFE293623EF0022A3BC /* WeatherListViewModel.swift */; };
+		6041DE0229362D090022A3BC /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041DE0129362D090022A3BC /* ListViewCell.swift */; };
+		6041DE0429362DEC0022A3BC /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6041DE0329362DEC0022A3BC /* Double.swift */; };
 		605866012933909400B6755E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605866002933909400B6755E /* AppDelegate.swift */; };
 		605866032933909400B6755E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605866022933909400B6755E /* SceneDelegate.swift */; };
 		605866052933909400B6755E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605866042933909400B6755E /* ViewController.swift */; };
 		605866082933909400B6755E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 605866062933909400B6755E /* Main.storyboard */; };
 		6058660A2933909600B6755E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 605866092933909600B6755E /* Assets.xcassets */; };
 		6058660D2933909600B6755E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6058660B2933909600B6755E /* LaunchScreen.storyboard */; };
+		605866162933945600B6755E /* WeatherListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605866152933945600B6755E /* WeatherListTableViewController.swift */; };
+		60586618293394B300B6755E /* AddWeatherCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60586617293394B300B6755E /* AddWeatherCityViewController.swift */; };
+		60832209293511A30029D96C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60832208293511A30029D96C /* WebService.swift */; };
+		6083220C293518000029D96C /* WeatherResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6083220B293518000029D96C /* WeatherResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6041DDF629361EBA0022A3BC /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		6041DDF929361F2C0022A3BC /* Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contants.swift; sourceTree = "<group>"; };
+		6041DDFC29361FC90022A3BC /* AddWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherViewModel.swift; sourceTree = "<group>"; };
+		6041DDFE293623EF0022A3BC /* WeatherListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListViewModel.swift; sourceTree = "<group>"; };
+		6041DE0129362D090022A3BC /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		6041DE0329362DEC0022A3BC /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		605865FD2933909400B6755E /* GoodWeatherMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodWeatherMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		605866002933909400B6755E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		605866022933909400B6755E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +40,10 @@
 		605866092933909600B6755E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6058660C2933909600B6755E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6058660E2933909600B6755E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		605866152933945600B6755E /* WeatherListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListTableViewController.swift; sourceTree = "<group>"; };
+		60586617293394B300B6755E /* AddWeatherCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeatherCityViewController.swift; sourceTree = "<group>"; };
+		60832208293511A30029D96C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		6083220B293518000029D96C /* WeatherResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6041DDF529361EB00022A3BC /* Extensions  */ = {
+			isa = PBXGroup;
+			children = (
+				6041DDF629361EBA0022A3BC /* String.swift */,
+				6041DE0329362DEC0022A3BC /* Double.swift */,
+			);
+			path = "Extensions ";
+			sourceTree = "<group>";
+		};
+		6041DDF829361F1B0022A3BC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				6041DDF929361F2C0022A3BC /* Contants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		6041DDFB29361FBD0022A3BC /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				6041DDFC29361FC90022A3BC /* AddWeatherViewModel.swift */,
+				6041DDFE293623EF0022A3BC /* WeatherListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6041DE0029362CF40022A3BC /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				6041DE0129362D090022A3BC /* ListViewCell.swift */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
 		605865F42933909400B6755E = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +110,13 @@
 		605865FF2933909400B6755E /* GoodWeatherMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6041DE0029362CF40022A3BC /* CustomCell */,
+				6041DDFB29361FBD0022A3BC /* ViewModels */,
+				6041DDF829361F1B0022A3BC /* Utils */,
+				6041DDF529361EB00022A3BC /* Extensions  */,
+				6083220A293517F30029D96C /* Model */,
+				60832207293511970029D96C /* Service */,
+				605866142933944200B6755E /* Controllers */,
 				605866002933909400B6755E /* AppDelegate.swift */,
 				605866022933909400B6755E /* SceneDelegate.swift */,
 				605866042933909400B6755E /* ViewController.swift */,
@@ -65,6 +126,31 @@
 				6058660E2933909600B6755E /* Info.plist */,
 			);
 			path = GoodWeatherMVVM;
+			sourceTree = "<group>";
+		};
+		605866142933944200B6755E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				605866152933945600B6755E /* WeatherListTableViewController.swift */,
+				60586617293394B300B6755E /* AddWeatherCityViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		60832207293511970029D96C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				60832208293511A30029D96C /* WebService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6083220A293517F30029D96C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6083220B293518000029D96C /* WeatherResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +224,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60832209293511A30029D96C /* WebService.swift in Sources */,
 				605866052933909400B6755E /* ViewController.swift in Sources */,
+				60586618293394B300B6755E /* AddWeatherCityViewController.swift in Sources */,
+				6083220C293518000029D96C /* WeatherResponse.swift in Sources */,
+				6041DE0429362DEC0022A3BC /* Double.swift in Sources */,
+				6041DE0229362D090022A3BC /* ListViewCell.swift in Sources */,
 				605866012933909400B6755E /* AppDelegate.swift in Sources */,
+				6041DDFA29361F2C0022A3BC /* Contants.swift in Sources */,
+				6041DDFF293623EF0022A3BC /* WeatherListViewModel.swift in Sources */,
+				605866162933945600B6755E /* WeatherListTableViewController.swift in Sources */,
+				6041DDF729361EBA0022A3BC /* String.swift in Sources */,
 				605866032933909400B6755E /* SceneDelegate.swift in Sources */,
+				6041DDFD29361FC90022A3BC /* AddWeatherViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +391,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +420,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
